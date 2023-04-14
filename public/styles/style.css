@@ -1,0 +1,177 @@
+@import url(./variables.css);
+@font-face {
+  font-family: "caveat";
+  src: url(../fonts/Alkatra-VariableFont_wght.ttf);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  font-family: "caveat", sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #fff;
+  box-shadow: 0 0.1rem 0.2rem rgba(0, 0, 0, 0.2);
+}
+
+.nav {
+  color: var(--color-bg);
+}
+
+.nav__list {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+}
+
+.nav__item a {
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-bg);
+}
+
+.header__title {
+  font-size: 2rem;
+  color: var(--color-bg);
+}
+
+.main {
+  font-family: "caveat", sans-serif;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.cake-section1__text {
+  margin-top: 0;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  float: right;
+}
+
+.cake-section1 {
+  display: flex;
+  margin-top: 1rem;
+}
+
+.cake-section1__title {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: var(--color-bg);
+}
+
+.cake1-section1__item-image {
+  width: 30%;
+  height: 20%;
+  margin-bottom: 1rem;
+}
+
+.cake-section2__title {
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: var(--color-bg);
+}
+
+.cake-section2__list {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.cake-section2__item {
+  flex-basis: calc(33.33% - 2rem);
+  background-color: #fff;
+  padding: 1rem;
+  box-shadow: 0 0.1rem 0.2rem rgba(0, 0, 0, 0.2);
+}
+
+.cake-section2__item-image {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.cake-section2__item-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: var(--color-bg);
+}
+
+.cake-section2__item-price {
+  font-size: 1rem;
+  color: var(--color-bg);
+}
+
+.cake-section2__item-button {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background-color: var(--color-bg);
+  color: #fff;
+  border: none;
+  border-radius: 0.2rem;
+}
+
+.cake-section2__item-button:hover {
+  background-color: #fff;
+  color: var(--color-bg);
+}
+
+.cake-section3 {
+  margin-top: 2rem;
+  display: flex;
+}
+
+.cake-section3__text {
+  margin-top: 0;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  float: left;
+}
+
+.cake-section3__title {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: var(--color-bg);
+}
+
+.cake3-section2__item-image {
+  width: 30%;
+  height: 20%;
+  margin-bottom: 1rem;
+}
+
+.cake3-section3__item-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50rem;
+  margin-bottom: 1rem;
+}
+
+.footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #fff;
+  box-shadow: 0 0.1rem 0.2rem rgba(0, 0, 0, 0.2);
+  margin-top: 2rem;
+}
+
+.footer__text {
+  color: var(--color-bg);
+} 
